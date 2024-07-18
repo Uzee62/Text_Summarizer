@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="heading"><h1>Text Summarizer</h1>
+    </div>
+    <p class="heading">One spot for text summarization</p>
+    
+    
+    <h4>Summarized Text</h4>
+        <textarea class="doc1" name="Text" rows="7" cols="170">{{summary}}</textarea> 
+        <button class="btn btn-primary" type="submit">Summarized words: {{len_summary}}</button>
+    <h4>Original Text</h4>
+        <textarea class="doc1" name="Text" rows="5" cols="170">{{originalDoc}}</textarea> 
+        <button class="btn btn-primary" type="submit">Original words: {{len_orig_text}}</button>
+    
+
+        <button class="btn btn-secondary" type="button" onclick="goBack()">Go to previous page</button>
+
+    
+
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

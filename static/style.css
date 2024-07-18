@@ -1,0 +1,105 @@
+.heading{
+    background-color:rgb(211, 221, 221);
+    display: flex;
+    justify-content: center;
+}
+.doc{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.doc1{
+    background-color: rgb(177, 191, 196);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Summary page */
+@media (max-width: 1200px) {
+    .doc1 {
+        width: 100%;
+        height: 150px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .doc1 {
+        height: 120px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .doc1 {
+        height: 100px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .doc1 {
+        height: 40px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+}
+
+/* Index page */
+@media (max-width: 1200px) {
+    .doc {
+        width: 100%;
+        height: 150px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .doc {
+        height: 120px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .doc {
+        height: 100px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    .doc {
+        height: 40px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+}
