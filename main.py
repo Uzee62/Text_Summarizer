@@ -44,7 +44,7 @@ def summarizer(rawdoc):
                     sentCount[sent]+= wordCount[word.text]
     # print(sentCount)
 
-    length = int(len(sentTokens) * 0.4)
+    length = int(len(sentTokens) * 0.3)
     # print(length)
 
 
